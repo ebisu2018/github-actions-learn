@@ -10,3 +10,4 @@ jobs:
           node-version: '22.x'
       - run: npm install
       - run: npm run build
+      - run: echo "$(cat hello_world.txt)"
